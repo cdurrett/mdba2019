@@ -53,16 +53,17 @@ main {
 	main {width: 650px; grid-template-columns: 1fr 1fr;}
 }
 @media screen and (min-width: 975px) {
-	main {width: 975px; grid-template-columns: 1fr 1fr 1fr;}
+	/* TODO add this back in when we have 3 entries */
+	/* main {width: 975px; grid-template-columns: 1fr 1fr 1fr;} */
 }
 @media screen and (min-width: 1300px) {
-	main {width: 1300px; grid-template-columns: 1fr 1fr 1fr 1fr;}
+	/* main {width: 1300px; grid-template-columns: 1fr 1fr 1fr 1fr;} */
 }
 @media screen and (min-width: 1625px) {
-	main {width: 1625px; grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
+	/* main {width: 1625px; grid-template-columns: 1fr 1fr 1fr 1fr 1fr;} */
 }
 @media screen and (min-width: 1950px) {
-	main {width: 1950px; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;}
+	/* main {width: 1950px; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;} */
 }
 
 .entry {
