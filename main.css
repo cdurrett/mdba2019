@@ -26,7 +26,7 @@ a {
 	color: #596503;
 }
 
-main {
+.main {
 	display: grid;
 	grid-template-columns: 1fr;
 	width: 325px;
@@ -34,19 +34,22 @@ main {
 	margin-right: auto;
 }
 @media screen and (min-width: 650px) {
-	main {width: 650px; grid-template-columns: 1fr 1fr;}
+	.main {width: 650px; grid-template-columns: 1fr 1fr;}
 }
 @media screen and (min-width: 975px) {
-	main {width: 975px; grid-template-columns: 1fr 1fr 1fr;}
+	.main {width: 975px; grid-template-columns: 1fr 1fr 1fr;}
 }
 @media screen and (min-width: 1300px) {
-	/* main {width: 1300px; grid-template-columns: 1fr 1fr 1fr 1fr;} */
+	/* .main {width: 1300px; grid-template-columns: 1fr 1fr 1fr 1fr;} */
 }
 @media screen and (min-width: 1625px) {
-	/* main {width: 1625px; grid-template-columns: 1fr 1fr 1fr 1fr 1fr;} */
+	/* .main {width: 1625px; grid-template-columns: 1fr 1fr 1fr 1fr 1fr;} */
 }
 @media screen and (min-width: 1950px) {
-	/* main {width: 1950px; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;} */
+	/* .main {width: 1950px; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;} */
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     .entry {display: inline-block;}
 }
 
 .entry {
@@ -90,4 +93,3 @@ main {
 	border: 2px solid #968D00;
 	background-image: linear-gradient(#cbdbef, #b2c6da, #c0d0e0, #d0daab);
 }
-
