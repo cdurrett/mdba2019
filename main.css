@@ -17,7 +17,6 @@ img, embed, object, video {
 }
 
 h1,h2,h3,h4,h5 {
-	color: #584636;
 	font-family: Bitter;
 	margin: 0px;
 }
@@ -49,17 +48,18 @@ a {
 	/* .main {width: 1950px; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;} */
 }
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-     .entry {display: inline-block;}
+     .entry {display:inline-block; vertical-align:top; margin-right:10px;}
 }
 
 .entry {
 	width: 300px;
 	margin-top: 20px;
 	margin-left: 12px;
+	color: #584636;
 }
 
 .entry h2 {
-	color: #C1272D;;
+	color: #C1272D;
 	margin-bottom: 5px;
 }
 
@@ -81,6 +81,10 @@ a {
 	height: 200px;
 	width: 300px;
 	border: 2px solid #968D00;
+}
+
+.entry p {
+	margin-block-start: 0.5em;
 }
 
 .nophoto {
